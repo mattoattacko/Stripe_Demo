@@ -7,7 +7,7 @@ export function Checkout() {
 
   const [product, setProduct] = useState({
     name: 'Jiji\'s Love',
-    description: 'Look at this handsome cat. His name is Jiji. Buy his love!',
+    description: 'Look at this majestic cat. His name is Jiji. Buy his love!',
     images: [
       'https://i.imgur.com/5m9S1A0.png',
     ],

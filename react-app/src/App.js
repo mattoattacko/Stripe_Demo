@@ -85,7 +85,7 @@ function Home() {
   return (
     <>
       <div class="well">
-        <h2>Stripe React + Node.js Live Demo</h2>
+        <h2>Stripe - React - Node.js || Template</h2>
       </div>
 
       <div class="embed-responsive embed-responsive-16by9 vid">
@@ -95,7 +95,8 @@ function Home() {
           // height="360"
           frameborder="0"
           allow="autoplay; fullscreen"
-          allowfullscreen></iframe>
+          allowfullscreen>
+        </iframe>
       </div>
 
       <div class="well">
