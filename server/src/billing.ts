@@ -64,7 +64,7 @@ export async function cancelSubscription(
   if (customer.metadata.firebaseUID !== userId) {
     throw Error('Firebase UID does not match Stripe Customer');
   }
-  // This will immediatly cancel the subscription
+  // This will immediately cancel the subscription
   const subscription = await stripe.subscriptions.del(subscriptionId);
 
   // Cancel at end of period

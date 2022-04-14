@@ -22,7 +22,7 @@ app.use(cors({ origin: true }));
 // Adds rawBody property to the body. Which instead of JSON, contains the buffer
 // We modify our express.json middleware to run a callback called verify that contains the buffer itself
 // and then sets it as a property called 'rawBody' on the request. Allowing us to access the buffer in 
-// any of our end popints
+// any of our end points
 // We want the buffer because this is a signed request from stripe 
 app.use(
   express.json({
