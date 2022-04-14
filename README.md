@@ -1,19 +1,4 @@
-## Fullstack Stripe Payments for the JavaScript Developer
-
-Build a fullstack [Stripe Payments](https://stripe.com/) solution with Node.js. Learn the following concepts...
-
-- Build a secure backend with Node.js & Express
-- Manage Stripe Checkout sessions
-- Use the Payment Intents API to support 3D Secure Payments
-- Recurring subscriptions & webhooks
-- Customize the UI with Stripe Elements
-- Integrate with real cloud infrastructure (Firebase Auth & Firestore)
-- Deploy as a Docker Container OR to Firebase Cloud Functions
-
-
-Try the [Live Demo](https://stripe-js-course.firebaseapp.com) (React). 
-
-Enroll in the [Stripe JavaScript Course](https://fireship.io/courses/stripe-js). 
+## Stripe - React - Node || Demo
 
 ## Usage
 
@@ -50,14 +35,6 @@ cd react-app
 npm install
 npm start
 ```
-
-### Angular 
-
-Work in Progress
-
-### Vue 
-
-Work in Progress
 
 ## Deployment
 

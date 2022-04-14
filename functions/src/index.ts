@@ -15,6 +15,7 @@ const app = express();
 export const api = functions.https.onRequest(app);
 
 // OR use callable functions instead of Express
+// context contains the current user as the auth property, if not logged in it will be null
 import { createStripeCheckoutSession } from './checkout';
 export const stripeCheckout = functions.https.onCall( async (data, context) => {
 
